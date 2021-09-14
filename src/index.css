@@ -14,6 +14,11 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 ul {
   padding-left: 0;
 }

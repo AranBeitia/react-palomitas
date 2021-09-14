@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.image {
+  max-width: 500px;
+}

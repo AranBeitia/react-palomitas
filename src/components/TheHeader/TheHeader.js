@@ -1,7 +1,12 @@
+import { Link }from 'react-router-dom'
+
 function TheHeader() {
 	return (
 		<header>
-			<h1 className="text-center">Movies</h1>
+			<nav>
+				<Link to="/">Home</Link>
+				<Link to="/movies">Movie</Link>
+			</nav>
 		</header>
 	)
 }

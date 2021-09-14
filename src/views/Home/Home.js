@@ -1,13 +1,7 @@
-import TheHeader from '../../components/TheHeader'
 import TheMain from '../../components/TheMain'
 
 function Home() {
-	return (
-		<>
-			<TheHeader />
-			<TheMain />
-		</>
-	)
+	return <TheMain />
 }
 
 export default Home

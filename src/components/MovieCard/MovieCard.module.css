@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.card:hover {
+  opacity: .7;
+}
+
 .card__image {
   border-radius: 10px;
   background-color: azzure;
