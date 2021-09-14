@@ -1,14 +1,9 @@
-import MoviesGrid from "./components/MoviesGrid"
+import Home from './views/Home'
 
 function App() {
-  return <div>
-    <header>
-      <h1 className="text-center">Movies</h1>
-    </header>
-    <main>
-      <MoviesGrid />
-    </main>
-  </div>
+	return (
+    <Home />
+	)
 }
 
 export default App
