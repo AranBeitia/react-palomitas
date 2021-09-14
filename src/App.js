@@ -1,4 +1,4 @@
-import MoviesGrid from "./MoviesGrid"
+import MoviesGrid from "./components/MoviesGrid"
 
 function App() {
   return <div>

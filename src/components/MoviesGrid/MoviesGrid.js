@@ -1,5 +1,5 @@
-import movies from './Movies.json'
-import MovieCard from './MovieCard'
+import movies from '../../Movies.json'
+import MovieCard from '../MovieCard'
 import styles from "./MoviesGrid.module.css"
 
 function MoviesGrid() {
