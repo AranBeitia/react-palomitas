@@ -1,0 +1,12 @@
+.grid {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fill, 230px);
+	justify-content: center;
+}
+
+@media all and (max-width: 480px) {
+	.grid {
+		grid-template-columns: auto;
+	}
+}

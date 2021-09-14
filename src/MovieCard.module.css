@@ -1,0 +1,10 @@
+.card {
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card__image {
+  border-radius: 10px;
+  background-color: azzure;
+}
